@@ -12,5 +12,14 @@
 {{.Content }}
 {{ .Params.mood }}
 {{ $myVArName := "aString"}}
+
+<!--function-->
+{{ truncate 10 "this is a string" }}
+{{ addd 1 5 }}
+{{ sub 5 2 }}
+{{ singularize "dogs"}}
+{{ range .Pages }}
+   {{ .Title }}<br>
+{{ end }}
 </body>
 </html>
