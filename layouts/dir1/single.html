@@ -6,7 +6,11 @@
      <title>Document</title>
 </head>
 <body>
-this is in dir1
-{{.Content}}
+<h1 style="color: {{ .Params.color }}">this is in dir1</h1>
+{{ .Title }}
+{{ .Date }}
+{{.Content }}
+{{ .Params.mood }}
+{{ $myVArName := "aString"}}
 </body>
 </html>
