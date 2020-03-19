@@ -1,3 +1,4 @@
+
 <html>
 <head>
      <meta charset="UTF-8">
@@ -7,7 +8,7 @@
 </head>
 <body>
      <!--were conetnt is a variable and range is a function -->
-     <!--<ul><li><a href="{{.URL}}">{{.Title}}</li></ul>{{END}} -->
+   
      {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
      {{.Content}}
      {{ range .Pages }}
