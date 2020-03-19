@@ -48,6 +48,9 @@
  </li>
 
 <!--accessing json file-->
+<!--where name and capital are like var in frontmmatter-->
 {{ range .Site.Data.IndianStates }}
+  {{ .name}} <br> {{ .capital}} <br>
+{{ end }}
 </body>
 </html>
