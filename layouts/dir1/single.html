@@ -47,5 +47,7 @@
  	<a href="{{ .URL }}" style="{{if eq .Title $title }} background-color: yellow;{{ end }}">{{ .Title }}</a>
  </li>
 
+<!--accessing json file-->
+{{ range .Site.Data.IndianState }}
 </body>
 </html>
